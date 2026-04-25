@@ -86,7 +86,7 @@ Logic adapted from Tushar Kanjariya (Medium: https://medium.com/@TusharKanjariya
 .dot-nav .dot:hover::after { opacity: 1; }
 
 
-/* Hero section */
+/* Hero section with dark bg*/
 .hero {
     min-height: 100vh;
     display: flex;
@@ -162,7 +162,7 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
 }
-/* explanation: .reversed flips column order (image right) */
+
 .phase-card.reversed { direction: rtl; }
 .phase-card.reversed .phase-media,
 .phase-card.reversed .phase-text { direction: ltr; }
